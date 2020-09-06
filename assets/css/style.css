@@ -61,9 +61,8 @@ nav {
 }
 .main-content {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 100%;
-  height: 100vh;
 }
 
 .header-text {
@@ -75,7 +74,7 @@ nav {
   color: rgb(248, 248, 86);
   font-size: 1.4rem;
   font-weight: 200;
-  margin-left: 1.2rem;
+  margin: 0 1.2rem;
   padding-left: 0.5rem;
   animation: intro 0.9s infinite ease;
 }
@@ -83,20 +82,20 @@ nav {
   color: rgb(192, 199, 229);
   font-weight: 800;
   font-size: 5.5rem;
-  margin-left: 1.2rem;
+  margin: 0 1.2rem;
   padding-left: 0.5rem;
 }
 .header-text h2 {
   color: #707388;
   font-weight: 700;
   font-size: 2.9rem;
-  margin-left: 1.2rem;
+  margin: 0 1.2rem;
   padding-left: 0.5rem;
 }
 .header-text p {
   color: #acacaf;
   font-size: 1.2rem;
-  margin-left: 1.2rem;
+  margin: 0 1.2rem;
   padding-left: 0.5rem;
   max-width: 500px;
   margin-top: 1rem;
@@ -108,7 +107,7 @@ nav {
   border: 1px solid #f8f856;
   display: inline-block;
   outline: none;
-  margin-left: 1.2rem;
+  margin: 0 1.2rem;
   font-size: 1.2rem;
   border-radius: 5px;
   color: #fff;
@@ -119,12 +118,42 @@ nav {
   background: rgb(240, 229, 229);
   color: #000;
 }
-.img{
-  width:100%;
-  height:auto;
-  background-size: cover;
-  background-repeat: no-repeat;
+.About-me {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
 }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container {
+  flex: 1;
+  width: 400px;
+  height: 350px;
+  background: url("/assets/img/mypic.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border:1px solid #adadca;
+  border-radius:10px;
+}
+.about-details {
+  flex: 1;
+  width: 400px;
+  height: 350px;
+}
+.about-details p {
+  color: #acacaf;
+  font-size: 1.2rem;
+  margin: 0 1.2rem;
+  padding-left: 0.5rem;
+  min-width: 200px;
+  margin-top: 1rem;
+}
+
 
 /* Animations */
 @keyframes intro {
